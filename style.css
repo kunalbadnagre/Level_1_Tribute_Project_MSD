@@ -1,0 +1,88 @@
+body{
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    display: flex;
+}
+.columnOne{
+    background-color: rgb(143, 128, 128);
+}
+.columnOne mg{
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 10px;
+    
+    box-shadow: 10px 10px 10px rgb(63, 63, 63);
+}
+.name{
+    text-align: center;
+}
+.name:hover{
+    text-shadow: 2px 2px 2px rgb(78, 68, 68);
+    transition: all 0.2s ease-in-out;
+    transform: scale(1.05);
+}
+#personalDetails{
+    margin: 30px;
+}
+
+.columnTwo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(195, 195, 195);
+    padding: 20px;
+}
+.contentBox{
+    text-indent: 30px;
+    padding: 10px;
+    color: rgb(33, 32, 32);
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(225, 220, 214);
+    transition: all 0.2s ease-in-out;
+}
+.contentBox:hover{
+    color: black;
+    background-color: rgb(218, 211, 204);
+    box-shadow: 10px 10px 10px rgb(102, 113, 112);
+    transform: scale(1.01)
+}
+.text-center{
+    text-align: center;
+    /* border: 1px solid black; */
+}
+.IntroPara{
+    text-indent: 30px;
+    /* border: 1px solid black; */
+}
+div b{
+    text-align: center;
+    /* border: 1px solid black; */
+}
+footer ul{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+}
+footer ul{
+    list-style-type: none;
+}
+footer ul li{
+    color: white;
+    margin: 5px;
+}
+#email{
+    text-decoration: none;
+    color: aqua;
+}
+.icon img{
+    transition: all 0.2s ease-in-out;
+
+}
+
+.icon img:hover{
+    transform: scale(1.22);
+}
